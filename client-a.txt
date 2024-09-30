@@ -1,4 +1,27 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task: Write pseudocode for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
 
+Hints: Input/output, conditional logic
+
+
+BEGIN Number DUEL
+DISPLAY " Hello BRAVE SOUL you've just accepted the DUEL, Please do type in a number between 1 and 10. You shall only have three guesses."
+(number>10) OR (number<1)
+DISPLAY "Type in a number between 1-10"
+DISPLAY "Guess a number. Last Warning; You only have three guesses."
+
+If  (Guess=number) then		
+DISPLAY " Way to show off!!! YOU have WON THE DUEL"
+
+If (Guess>number) then
+DISPLAY "Not quite right, try again "
+
+If (Guess<number) then
+DISPLAY "are you even trying? time is ticking"
+
+WHILE (NOT(Guess=number) )	
+WHILE three chances
+
+END
