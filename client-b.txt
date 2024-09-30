@@ -1,4 +1,21 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task: Develop a mapping (walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, or west.
+Hints: Loops, Variables
 
+BEGIN LOCATE ME MAP
+
+Employees will Start at north-east corner of warehouse upon clocking in.
+
+Each Warehouse Row will be LABELED with Numerical Integers, 
+
+if Employee is Moving south 1 row at a time, -1 to Integer label
+If Employee is Moving north 1 row at a time,  +1 to Integer label,
+
+Each Warehouse shelving units will be LABELED with Alphabetical Integer
+
+if Employee is Moving west 1 unit, decrease letter in alphabet
+if Employee is Moving east 1 unit, increase letter in alphabet
+
+END
