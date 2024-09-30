@@ -1,4 +1,30 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task: You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+Hint: Loops
+
+Set currentBox to x times 2
+set x to number of scans
+
+The customer scans item.
+x increases by 1
+
+newBoxFunction
+Print "Box contains 0 items"
+Print "Please scan item"
+
+scanFunction
+Print "Box contains" currentBox
+Print "Please scan item"
+
+repeat scanFunction until currentBox = 50
+
+fullFunction
+When currentBox = 50
+Print "Box is FULL"
+Print "Please start a NEW BOX"
+
+return to newBoxFunction
 
